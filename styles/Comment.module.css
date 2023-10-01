@@ -1,0 +1,52 @@
+.main_div{
+    display: flex;
+    align-items: center;
+}
+.icon_div{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+    font-size: large;
+    color: rgb(118, 118, 118);
+    cursor: pointer;
+    padding: 8px 40px;
+    width: 200px;
+    /* margin: 3px 0; */
+}
+.icon_div:hover{
+    background-color: rgb(234, 232, 232);
+    border-radius: 5px;
+}
+.icon_div p{
+    font-weight: 600;
+    font-size: 16px;
+}
+.input{
+    width: 100%;
+    padding: 8px 15px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background-color: rgb(235, 235, 235);
+    font-size: 16px;
+}
+.Submit_btn{
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: blue;
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+.like_div{
+    margin: 5px 10px;
+    background: red;
+}
+@media (max-width: 468px){
+    .icon_div{
+        padding: 8px 20px;
+    }
+}

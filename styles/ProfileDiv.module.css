@@ -1,0 +1,62 @@
+.outer_div{
+    position: fixed;
+    top: 60px;
+    right: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 350px;
+    border-radius: 10px 15px;
+    box-shadow: 0 0 5px rgb(203, 201, 201);
+    font-family: Arial, Helvetica, sans-serif;
+    display: none;
+}
+.inner_profile_div{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 5px 5px;
+    padding-bottom: 10px;
+    box-shadow: 0 5px 10px rgb(193, 193, 193);
+}
+.user_image{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px;
+}
+.user_image:hover{
+    background-color: rgb(231, 228, 228);
+    border-radius: 10px;
+}
+.profile{
+    padding-left: 10px !important ;
+    font-weight: 500;
+    padding: 10px 0;
+    color:blue;
+    cursor: pointer;
+}
+.profile:hover{
+    background-color: rgb(231, 228, 228);
+    border-radius: 10px;
+}
+.icon_outer_div{
+    margin: 20px 10px;
+}
+.icon_div{
+    display: flex;
+    align-items: center;
+    /* margin-top: 15px; */
+    cursor: pointer;
+    padding: 10px 5px;
+}
+.icon_div:hover{
+    background-color: rgb(231, 228, 228);
+    border-radius: 10px;
+}
+.icon_back{
+    background-color: rgb(218, 218, 218);
+    padding: 5px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,12 @@
+import LoginForm from '../../components/LoginForm'
+import Layout from './layout'
+
+export default function Home() {
+    return (
+        <>
+            <Layout>
+                <LoginForm />
+            </Layout>
+        </>
+    )
+}

@@ -1,0 +1,64 @@
+.outer_div{
+    font-family: Arial, Helvetica, sans-serif;
+    /* align-items: center; */
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    font-size: 35px;
+}
+.input_div{
+    padding: 30px 60px;
+}
+.input_inner_div{
+    gap: 10px;
+}
+.input{
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    margin: 8px 0;
+    border: 1px solid lightgray;
+    outline: none;
+    font-size: 16px;
+}
+.button{
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    background-color: #6ccaf3;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #47b5e4;
+}
+.signIn_div{
+    width: 100%;
+    border: 1px solid lightgray;
+    margin-top: 15px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 14px;
+}
+.register_div{
+    font-size: 14px;
+    margin: 15px 0 20px 0;
+    color: rgb(130, 130, 130);
+    display: flex;
+    justify-content: center;
+}
+.Link{
+    color: rgb(86, 86, 86);
+    text-decoration: none;
+    margin-left: 5px;
+}
+.Link:hover{
+    text-decoration: underline;
+    color: blue;
+}

@@ -1,0 +1,140 @@
+.main{
+    border-bottom: 2px solid whitesmoke;
+    padding: 10px;
+    background-color: white;
+    z-index: 10;
+}
+.input{
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(233, 233, 233);
+    font-size: 16px;
+    outline: none;
+    padding-left: 30px;
+}
+.icon{
+    position:relative;
+    font-size:20px;
+    left:27px;
+    top:3px;
+    color:gray;
+}
+.icon_div{
+    display: flex;
+    gap: 10px;
+}
+.center_icon{
+    font-size: 30px;
+    display: flex;
+    cursor: pointer;
+    padding: 8px 30px;
+    color: #000;
+    border-bottom: 5px solid rgba(56, 106, 242, 0);
+}
+.center_icon:hover{
+    border-bottom: 5px solid rgb(56, 106, 242);
+    background-color: rgb(232, 232, 232);
+    border-radius: 10px;
+    color:  rgb(56, 106, 242);
+}
+.center_icon:active{
+    background-color: none;
+}
+.menu_bars{
+    font-size: 25px;
+    display: none;
+}
+.mobile_icon{
+    display: none;
+}
+.left_icon{
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+}
+.left_icon_back{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(213, 211, 211);
+    display: grid;
+    place-items: center;
+    transition: 0.5s;
+}
+.left_icon_back:hover{
+    background-color: rgb(222, 222, 222);
+}
+
+@media(max-width:992px){
+    .icon{
+        left: 20px;
+        top: 2px;
+    }
+    .input{
+        border-radius: 20px;
+        width: 135px;
+        height: 40px;
+        margin-left: -10px;
+    }
+    .icon_div{
+        gap: 0;
+    }
+    .center_icon{
+        font-size: 25px;
+        padding: 8px 20px;
+    }
+    .left_icon{
+        font-size: 15px;
+    }
+    .left_icon_back{
+        height: 30px;
+        width: 30px;
+    }
+    
+}
+@media(max-width:768px){
+    .main{
+        border: none;
+    }
+    .icon{
+        left: 20px;
+        top: 2px;
+    }
+    .input{
+        border-radius: 20px;
+        width: 125px;
+        height: 40px;
+        margin-left: -10px;
+    }
+    #search{
+        width: 200px;
+    }
+    .center_icon{
+        display: none;
+    }
+    .menu_bars{
+        display: none;
+    }
+    .mobile_icon_div{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 28px;
+        margin: 5px 10px 0 0px;
+        border-bottom: 2px solid rgb(198, 198, 198);
+    }
+    .mobile_icon{
+        display: inline;
+        color: #000;
+        margin-left: 5px;
+        padding-bottom: 10px !important ;
+        padding: 5px;
+        font-size: 45px;
+        border-bottom: 4px solid rgba(56, 106, 242, 0);
+    }
+    .mobile_icon:hover{
+        border-bottom: 4px solid rgb(56, 106, 242);
+    }
+}
